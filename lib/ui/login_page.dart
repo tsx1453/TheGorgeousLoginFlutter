@@ -487,45 +487,45 @@ class _LoginPageState extends State<LoginPage>
               ],
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Padding(
-                padding: EdgeInsets.only(top: 10.0, right: 40.0),
-                child: GestureDetector(
-                  onTap: () => showInSnackBar("Facebook button pressed"),
-                  child: Container(
-                    padding: const EdgeInsets.all(15.0),
-                    decoration: new BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white,
-                    ),
-                    child: new Icon(
-                      FontAwesomeIcons.facebookF,
-                      color: Color(0xFF0084ff),
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: EdgeInsets.only(top: 10.0),
-                child: GestureDetector(
-                  onTap: () => showInSnackBar("Google button pressed"),
-                  child: Container(
-                    padding: const EdgeInsets.all(15.0),
-                    decoration: new BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white,
-                    ),
-                    child: new Icon(
-                      FontAwesomeIcons.google,
-                      color: Color(0xFF0084ff),
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
+//          Row(
+//            mainAxisAlignment: MainAxisAlignment.center,
+//            children: <Widget>[
+//              Padding(
+//                padding: EdgeInsets.only(top: 10.0, right: 40.0),
+//                child: GestureDetector(
+//                  onTap: () => showInSnackBar("Facebook button pressed"),
+//                  child: Container(
+//                    padding: const EdgeInsets.all(15.0),
+//                    decoration: new BoxDecoration(
+//                      shape: BoxShape.circle,
+//                      color: Colors.white,
+//                    ),
+//                    child: new Icon(
+//                      FontAwesomeIcons.facebookF,
+//                      color: Color(0xFF0084ff),
+//                    ),
+//                  ),
+//                ),
+//              ),
+//              Padding(
+//                padding: EdgeInsets.only(top: 10.0),
+//                child: GestureDetector(
+//                  onTap: () => showInSnackBar("Google button pressed"),
+//                  child: Container(
+//                    padding: const EdgeInsets.all(15.0),
+//                    decoration: new BoxDecoration(
+//                      shape: BoxShape.circle,
+//                      color: Colors.white,
+//                    ),
+//                    child: new Icon(
+//                      FontAwesomeIcons.google,
+//                      color: Color(0xFF0084ff),
+//                    ),
+//                  ),
+//                ),
+//              ),
+//            ],
+//          ),
         ],
       ),
     );
